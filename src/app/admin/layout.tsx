@@ -58,7 +58,7 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
             <span className="absolute top-1 right-1 w-2 h-2 rounded-full bg-red-400" />
           </button>
           <div className="w-8 h-8 rounded-full flex items-center justify-center text-white font-bold text-xs"
-            style={{ background: 'linear-gradient(135deg,#C9A227,#F0C040)', color: 'var(--primary)' }}>ه</div>
+            style={{ background: 'linear-gradient(135deg,#C9A227,#F0C040)', color: 'var(--primary)' }}>م</div>
         </div>
       </div>
 

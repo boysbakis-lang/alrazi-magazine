@@ -88,10 +88,11 @@ export default function Footer() {
             <h4 className="text-sm font-bold mb-4" style={{ color: '#F0C040' }}>تواصل معنا</h4>
             <ul className="space-y-3">
               <li>
-                <a href="mailto:hany.aboueldahab@moe.sch.ae" className="flex items-center gap-2 text-sm transition-colors hover:text-white"
+                <a href="mailto:magazine@alrazi.ae"
+                  className="flex items-center gap-2 text-sm transition-colors hover:text-white"
                   style={{ color: 'rgba(255,255,255,0.65)' }}>
                   <Mail size={14} style={{ color: '#F0C040' }} />
-                  hany.aboueldahab@moe.sch.ae
+                  magazine@alrazi.ae
                 </a>
               </li>
               <li>

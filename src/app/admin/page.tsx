@@ -45,7 +45,7 @@ export default function AdminDashboard() {
       <div className="flex items-start justify-between mb-8">
         <div>
           <h1 className="text-2xl font-black text-gray-900">لوحة المعلومات</h1>
-          <p className="text-sm text-gray-500 mt-1">مرحباً، الأستاذ هاني أبو الدهب 👋</p>
+          <p className="text-sm text-gray-500 mt-1">مرحباً، الأستاذ محمد العامري 👋</p>
         </div>
         <Link href="/editor" className="btn btn-primary text-sm">
           + مقال جديد

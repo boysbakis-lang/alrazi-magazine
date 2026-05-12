@@ -6,7 +6,7 @@ import { cn, getRoleLabel, getInitials } from '@/lib/utils'
 import toast from 'react-hot-toast'
 
 const initialUsers = [
-  { id: '1', name: 'هاني أبو الدهب', email: 'hany.aboueldahab@moe.sch.ae', role: 'ADMIN', articles: 0, lastActive: 'الآن', grade: null, bio: 'مدير المجلة المدرسية' },
+  { id: '1', name: 'محمد العامري', email: 'admin@alrazi.ae', role: 'ADMIN', articles: 0, lastActive: 'الآن', grade: null, bio: 'مدير المدرسة' },
   { id: '2', name: 'أحمد السعيد', email: 'ahmed@alrazi.ae', role: 'TEACHER', articles: 24, lastActive: 'اليوم', grade: 'الحلقة الثانية', bio: 'منسق التعليم التقني' },
   { id: '3', name: 'سعيد الرشيد', email: 'saeed@alrazi.ae', role: 'TEACHER', articles: 18, lastActive: 'أمس', grade: null, bio: 'مشرف الروبوتيكس' },
   { id: '4', name: 'فاطمة النعيمي', email: 'fatima@alrazi.ae', role: 'EDITOR', articles: 16, lastActive: 'منذ يومين', grade: null, bio: 'محررة المجلة' },

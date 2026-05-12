@@ -22,9 +22,9 @@ async function main() {
   const hashedPassword = await bcrypt.hash('password123', 10)
 
   const admin = await prisma.user.upsert({
-    where: { email: 'hany.aboueldahab@moe.sch.ae' },
+    where: { email: 'admin@alrazi.ae' },
     update: {},
-    create: { name: 'هاني أبو الدهب', email: 'hany.aboueldahab@moe.sch.ae', password: hashedPassword, role: Role.ADMIN, bio: 'مدير مدرسة الرازي بنين - الحلقة الثانية' },
+    create: { name: 'محمد العامري', email: 'admin@alrazi.ae', password: hashedPassword, role: Role.ADMIN, bio: 'مدير مدرسة الرازي بنين - الحلقة الثانية' },
   })
 
   const teacher1 = await prisma.user.upsert({
@@ -146,7 +146,7 @@ async function main() {
     create: {
       siteName: 'مجلة الرازي المدرسية الرقمية',
       siteDesc: 'منصة رقمية تفاعلية تعكس إنجازات وأنشطة مدرسة الرازي بنين - الحلقة الثانية',
-      email: 'hany.aboueldahab@moe.sch.ae',
+      email: 'magazine@alrazi.ae',
       phone: '+971-4-XXX-XXXX',
       address: 'دبي، الإمارات العربية المتحدة',
     },

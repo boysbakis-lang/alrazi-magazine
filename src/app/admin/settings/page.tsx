@@ -12,7 +12,7 @@ export default function AdminSettingsPage() {
   const [general, setGeneral] = useState({
     siteName: 'مجلة الرازي المدرسية الرقمية',
     siteDesc: 'منصة رقمية تفاعلية تعكس إنجازات وأنشطة مدرسة الرازي بنين - الحلقة الثانية',
-    email: 'hany.aboueldahab@moe.sch.ae',
+    email: 'magazine@alrazi.ae',
     phone: '+971-4-XXX-XXXX',
     address: 'دبي، الإمارات العربية المتحدة',
     issueNumber: '17',

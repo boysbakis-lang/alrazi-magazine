@@ -87,7 +87,7 @@ NEXT_PUBLIC_SUPABASE_ANON_KEY=...
 
 ### بيانات الدخول الافتراضية
 بعد تشغيل `npm run db:seed`:
-- **المدير**: hany.aboueldahab@moe.sch.ae / password123
+- **المدير**: admin@alrazi.ae / password123
 - **معلم**: ahmed@alrazi.ae / password123
 
 ## 📁 هيكل المشروع
